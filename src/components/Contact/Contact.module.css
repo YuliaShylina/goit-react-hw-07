@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #0c0c0c;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.item {
+  padding: 8px;
+}
+
+.itemContact {
+  display: flex;
+  align-items: center;
+}
+
+.itemContact p {
+  padding-left: 8px;
+  color: #0c0c0c;
+}
+
+.button {
+  border: 1px solid grey;
+  border-radius: 2px;
+  background-color: rgba(226, 221, 221, 0.967);
+  cursor: pointer;
+  font-weight: 400;
+  margin-right: 8px;
+  padding: 2px 6px;
+  line-height: 1.5;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgba(226, 221, 221, 0.738);
+}
